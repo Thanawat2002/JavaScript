@@ -3,6 +3,7 @@ const names = ['Justin', 'Sarah', 'Christopher']
 //while loop
 console.log('-- while loop --')
 let index = 0
+
 while (index < names.length) {
     const name = names[index]
     console.log(name)
@@ -23,3 +24,10 @@ for (const name of names) {
 }
 
 //do while loop **sniplet
+console.log('-- do while loop --')
+let i = 0
+do {
+
+    console.log(names[i])
+    i++
+} while (i < names.length)
