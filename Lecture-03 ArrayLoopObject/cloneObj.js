@@ -6,10 +6,10 @@ const obj1 = {
     weight: 85,
 }
 
-
-//const obj2 = obj1
+// const obj2 = obj1
 //const obj2 = Object.assign({}, obj1)
 const obj2 = {...obj1 }
-obj.weight = 75
+obj2.weight = 75
+obj1.person = 'Thanawat'
 console.log(obj1)
 console.log(obj2)
